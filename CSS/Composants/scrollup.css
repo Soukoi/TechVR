@@ -1,0 +1,19 @@
+.wrapper{
+    position: absolute;
+    width: 100%;
+    height: 1175px; /* = main height - 25px */
+}
+
+.position{
+    height: 100%;
+    width: 4%;
+    margin-left: 96%;
+}
+
+#scrollup{
+    position: sticky;
+    top: 90%;
+    rotate: -90deg;
+    margin-top: 510px;
+    opacity: 50%;
+}

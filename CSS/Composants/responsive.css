@@ -1,0 +1,71 @@
+@media screen and (max-width:1281px){ /* Nest Hub Max */
+    #scrollup{
+        top: 87%;
+        scale: 0.8;
+    }
+    .text{
+        font-size: 30px;
+    }
+    .description{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    .gariZone{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1025px){ /* Nest Hub */
+    #ancre1{
+        scale: 0.9;
+    }
+    #scrollup{
+        top: 87%;
+        scale: 0.7;
+    }
+    .position{
+        margin-left: 95%;
+    }
+    .text{
+        font-size: 30px;
+    }
+    .description{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:913px){ /* Surface Pro 7 */
+    .header{
+        height: 261px;
+    }
+    .nav1{
+        margin-bottom: -87px;
+        align-items: center;
+        margin-left: 15%;
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    .nav3{
+        scale: 0.9;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3.8%;
+        width: 862px;
+        margin-left: 10.3%;
+    }
+    .nav2{
+        margin-bottom: -252px;
+        padding-bottom: 116px;
+        padding-top: 133px;
+    }
+    #scrollup{
+        top: 45%;
+        scale: 0.7;
+    }
+    .position{
+        margin-left: 94%;
+    }
+}

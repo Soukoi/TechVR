@@ -1,0 +1,14 @@
+@import url('Composants/header.css');
+@import url('Composants/main.css');
+@import url('Composants/footer.css');
+@import url('Composants/hover.css');
+@import url('Composants/sliding.css');
+@import url('Composants/scrollup.css');
+@import url('Composants/responsive.css');
+@import url('Composants/scrollbar.css');
+
+html, body {
+    scroll-behavior: smooth;
+    margin: 0;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+    background-color: rgb(221, 59, 59);
+    border-top: 2px solid aquamarine;
+}
+.footerNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    border-right: 1px solid aquamarine;
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+}
+.socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    border-left: 1px solid aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@keyframes colorSwitch{
+    from{
+        color: aquamarine;
+    }
+    25%{
+        color: rgb(221, 59, 59);
+    }
+    50%{
+        color: black;
+    }
+    75%{
+        color: white;
+    }
+    to{
+        color: aquamarine;
+    }
+}
+.gariZone{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 5%;
+    margin-left: 1425px;
+}

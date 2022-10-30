@@ -1,0 +1,50 @@
+#ancre1{
+    text-decoration: none;
+    color: aquamarine;  
+    font-family: 'Merienda', cursive;
+}
+#ancre1:hover{
+    color: white;
+    transition-duration: 250ms;
+}
+.ancre{
+    text-decoration: none; 
+    color: aquamarine;
+    font-family: 'Merienda', cursive;
+    animation: colorSwitch 5s infinite linear;
+    transition-duration: 500ms;
+}
+#delay{
+    animation-delay: 250ms;
+}
+#delay1{
+    animation-delay: 750ms;
+}
+#delay2{
+    animation-delay: 1250ms;
+}
+.ancre:hover{
+    color: white;
+    animation: none;
+}
+#scrollup:hover{
+    opacity: 100%;
+    transition-duration: 250ms;
+}
+#logo1:hover{
+    transform: rotate(11deg);
+    transition-duration: 250ms;
+}
+#logo2:hover{
+    transform: rotate(-11deg);
+    transition-duration: 250ms;
+}
+
+#secretZone{
+    opacity: 0;
+}
+#secretZone:hover{
+    opacity: 100%;
+    transition-duration: 1s;
+    transition-delay: 1.5s;
+}
